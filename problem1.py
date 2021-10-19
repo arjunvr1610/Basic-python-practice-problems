@@ -8,7 +8,7 @@ def billGenerator(total, *args):
         bill.write(f"\nDate-time: {date}")
         for key, value in args:
             bill.write(f"\n{key} = {value}")
-        bill.write(f"\nTotal amount = {total}")
+        bill.write(f"\nTotal amount = {total}\n")
 
 
 totalPrice = 0
